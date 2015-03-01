@@ -78,10 +78,10 @@ div {
 }
 
 .top-navigation {
-    background-color: #DCFFF7;
+    background-color: #172B33;
     position: fixed;
     width: 100%;
-    border-bottom: 1px solid #DDD;
+    border-bottom: 1px solid #f16639;
     z-index: 9999;
 }
 
@@ -97,7 +97,7 @@ div {
 /* Introduction Section */
 
 .introduction {
-    background-color: #83B2A7;
+    background-color: #172B33;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -134,34 +134,31 @@ div {
 /* Footer Section */
 
 .social {
-    background-color: #83B2A7;
+    border-top: 1px solid #f16639;
+    background-color: #172B33;
     overflow: auto;
     padding-bottom: 9.375rem;
     text-align: center;
 }
 
-.social hr {
-    border: 0;
-    border-top: 1px solid #f16639;
-    margin: 1.313rem 0;
+.social h5 {
+    margin: 1rem 0;
+    color: #f16639;
 }
 
 .social .icons > li {
     display: inline-block;
-    width: 2rem;
-    height: 2rem;
-    margin: 1.25rem 0.3125rem;
+    margin: 0.25rem 0.3125rem;
     padding: 0.625rem 0;
-    text-align: center;
 }
 
 .social .icons > li:hover {
     cursor: pointer;
 }
 
-.social .icons > li a img {
-    width: 2.5rem;
-    height: 2.5rem;
+.social .icons > li img {
+    width: 3rem;
+    height: 3rem;
 }
 
 /* Button */

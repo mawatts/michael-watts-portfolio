@@ -1,7 +1,6 @@
 /* Slide Panel */
         .cb_slide_panel {
-            background-color: #DCFFF7;
-            border-right: 1px solid #DCFFF7;
+            background-color: #738E99;
             box-shadow: 1px 1px 23px rgba(0, 0, 0, 0.17), -1px -1px 0 rgba(255, 255, 255, 0.85) inset;
             position: fixed;
             z-index: 65000;
@@ -26,13 +25,13 @@
         }
         .cb_slide_panel a.close {
             background: url(../images/close-icon.png) no-repeat;
-            /* border: 1px solid #E0E0E0; */
             height: 40px;
             position: absolute;
             text-indent: -9999em;
             width: 30px;
             display: none;
         }
+
         .cb_slide_panel.panel_left a.close {
             right: -42px;
             top: 20px;
@@ -62,14 +61,14 @@
             /* background: url(../img/ajax-loader.gif) no-repeat scroll 50% 50% transparent */
         }
         .cb_slide_panel h1 {
-            color: #FFFFFF;
+            color: #f16639;
             font-size: 1.2em;
             margin: -0.15em 0 20px;
             text-shadow: 0 1px 0 #000000;
         }
         .cb_slide_panel h2 {
             border-bottom: 1px solid #276BB3;
-            color: #FFFFFF;
+            color: #f16639;
             font-size: 14px;
             margin: 0;
             padding: 1px 0 0;
@@ -83,9 +82,26 @@
         .cb_slide_panel ul li {
         }
         .cb_slide_panel ul li a {
-            color: #91aac4;
+            color: #fff;
             text-decoration: none;
         }
         .cb_slide_panel ul li a:hover {
-            color: #fff;
+            color: #f16639;
+        }
+
+/* Start of custom styling */
+        .cb_slide_panel .inner .logo {
+            width: 100%;
+            height: auto;
+        }
+
+        .cb_slide_panel .links {
+            position: absolute;
+            bottom: 10rem;
+            width: 100%;
+            font-size: 1.5rem;
+        }
+
+        .cb_slide_panel .links > li {
+            padding: 1rem 0 0;
         }
