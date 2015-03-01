@@ -4,17 +4,20 @@
 	<meta charset="UTF-8">
 	<title>Michael Watts' Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--Include jQuery -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <!--Include the slidepanel plugin -->
+    <script type="text/javascript" src="js/jquery.slidepanel.js"></script>
+ 	<!--Add the css -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.slidepanel.css">
 </head>
 <body>
-	<nav class="right-navigation">
+	<nav class="top-navigation">
 		<div class="content">
+			<!--Logo -->
 			<img width="300px" height="75px"class="logo" src="images/MyLogo.png" alt="Logo Image">
-			<ul class="links">
-				<li class="active"><a href="#">Portfolio</a></li>
-				<li><a href="#">About Me</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Contact Me</a></li>
-			</ul>
+			<!-- Opens Slidepanel Menu -->
+			<a class="active" href="menu.html" data-slidepanel="panel">Menu</a>
 		</div>
 	</nav>
 	<section class="introduction">
@@ -27,5 +30,25 @@
 			</div>
 		</div>
 	</section>
+	<footer class="social">
+		<div class="content">
+			<hr>
+			<h5>Join me on</h5>
+			<ul class="icons">
+				<li class="github"><a href="https://github.com/mawatts"><img src="images/github.png"></a></li>
+				<li class="linkedIn"><a href="https://www.linkedin.com/in/michaelallenwatts"><img src="images/linkedin.png"></a></li>
+				<li class="googlePlus"><a href="https://plus.google.com/u/0/102151056610554780675/about/p/pub"><img src="images/googleplus.png"></a></li>
+			</ul>
+		</div>
+	</footer>
+	<script type="text/javascript">
+      $(document).ready(function(){
+          $('[data-slidepanel]').slidepanel({
+              orientation: 'right',
+              mode: 'overlay',
+              static: true
+          });
+      });
+	</script>
 </body>
 </html>
