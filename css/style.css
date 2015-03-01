@@ -69,6 +69,8 @@ div {
     min-width: 37.5rem;
 }
 
+/* Navigation Section */
+
 .top-navigation > .content {
     height: 4.375rem;
     width: 60.625rem;
@@ -92,11 +94,48 @@ div {
     margin: 1.30rem 1.30rem 0;
 }
 
+/* Introduction Section */
+
+.introduction {
+    background-color: #83B2A7;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+
+.introduction h1, .introduction h3, .introduction p {
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+}
+
+.introduction h1 {
+    margin-top: 17rem;
+    font-size: 3.125rem;
+}
+
+.introduction h3 {
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
+}
+
+.introduction p {
+    margin-top: 1.25rem;
+}
+
+.introduction .big-button {
+    color: #fff;
+    text-align: center;
+    margin-top: 1.563rem;
+}
+
 /* Button */
 button {
     width: 9.688rem;
-    background-color: #f15a29;
-    border-color: #f15a29;
+    background-color: #f16639;
+    border-color: #f16639;
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
