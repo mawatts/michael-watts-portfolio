@@ -50,20 +50,47 @@ table {
 }
 
 body {
-    background-color: LightGray;
+    /* background-color: LightGray; */
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
 div {
-    border: 1px solid Chocolate;
+    /* border: 1px solid Chocolate; */
 }
 
 /* End of Reset */
 
 /* Start of custom styling */
 
+.content {
+    padding: 0 0.9375rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
 
+.top-navigation > .content {
+    height: 4.375rem;
+    width: 60.625rem;
+    margin: 0 auto;
+}
+
+.top-navigation {
+    background-color: #E7FFF9;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
+}
+
+.top-navigation .logo {
+    height: 4.375rem;
+}
+
+.top-navigation .slidepanel-menu {
+    float: right;
+    margin: 1.30rem 1.30rem 0;
+}
 
 /* Button */
 button {
