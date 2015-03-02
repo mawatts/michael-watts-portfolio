@@ -51,7 +51,7 @@ table {
 
 body {
     /* background-color: LightGray; */
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Audiowide', 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -98,10 +98,7 @@ div {
 
 .introduction {
     background-color: #172B33;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 45.938rem;
+    height: 30rem;
     overflow: auto;
 }
 
@@ -112,7 +109,7 @@ div {
 }
 
 .introduction h1 {
-    margin-top: 17rem;
+    margin-top: 15rem;
     font-size: 3.125rem;
 }
 
@@ -129,6 +126,44 @@ div {
     color: #fff;
     text-align: center;
     margin-top: 1.563rem;
+}
+
+/* Projects Section */
+
+.projects {
+    background-color: #172B33;
+    height: 45.938rem;
+    overflow: auto;
+}
+
+.projects h1 {
+    color: #fff;
+    margin-top: auto;
+    text-align: center;
+    font-size: 3.125rem;
+}
+
+.projects .list {
+    width: 40rem;
+    margin: 3rem auto;
+    overflow: hidden;
+}
+
+.projects .list h5 {
+    color: #fff;
+    padding: 1rem;
+}
+
+.projects .list > li {
+    width: 50%;
+    float: left;
+    display: inline;
+    font-size: 2rem;
+}
+
+.projects .list > li img {
+    height: 15rem;
+    width: auto;
 }
 
 /* Footer Section */
