@@ -215,18 +215,20 @@ button:hover {
 }
 
 /* Responsive Design */
-@media only screen and (max-width: 61.25rem) {
-  .masthead {
-    padding: 3em 0;
-  }
-  .masthead-heading {
-    font-size: 3em;
-  }
-  .content-footer {
-    padding: 1em 0;
-    font-size: 1em;
-  }
-  .content-footer .social {
-    display: inline-table;
-  }
+@media only screen and (max-width: 28.75rem) {
+    .introduction {
+        padding: 3em 0;
+    }
+    .introduction h1{
+        font-size: 2em;
+    } 
+    .introduction h3 {
+        font-size: 1rem;
+    }
+    .projects .list > li {
+        width: 100%;
+        float: center;
+        display: block;
+        font-size: 2rem;
+    }
 }
