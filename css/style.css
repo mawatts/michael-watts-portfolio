@@ -73,7 +73,7 @@ div {
 
 .top-navigation > .content {
     height: 4.375rem;
-    width: 60.625rem;
+    width: auto;
     margin: 0 auto;
 }
 
@@ -212,4 +212,21 @@ button:hover {
     background-color: #d9400e;
     border-color: #cf3d0e;
     cursor: pointer;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 61.25rem) {
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+  .content-footer {
+    padding: 1em 0;
+    font-size: 1em;
+  }
+  .content-footer .social {
+    display: inline-table;
+  }
 }
